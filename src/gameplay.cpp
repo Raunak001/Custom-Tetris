@@ -36,7 +36,7 @@ void Gameplay::init() {
 }
 
 void Gameplay::handleEvents() {
-    if(SDL_GetTicks() - timeStart > (900 - Score::tetrominoSpeed)) {
+    if(SDL_GetTicks() - timeStart > (Uint32)(900 - Score::tetrominoSpeed)) {
         down = true;
         timeStart = SDL_GetTicks();
     }
