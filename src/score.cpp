@@ -130,7 +130,7 @@ void Score::convertScore() {
         score = 9999999;
     std::string textScore = std::to_string(score);
     std::string leadingZeros = "";
-    for(int i = 0; i < 7 - textScore.size(); i++) {
+    for(long long unsigned int i = 0; i < 7 - textScore.size(); i++) {
         leadingZeros += "0";
     }
     leadingZeros += textScore;
@@ -145,7 +145,7 @@ void Score::convertScore() {
 void Score::convertHighscore() {
     std::string textScore = std::to_string(highscore);
     std::string leadingZeros = "";
-    for(int i = 0; i < 7 - textScore.size(); i++) {
+    for(long long unsigned int i = 0; i < 7 - textScore.size(); i++) {
         leadingZeros += "0";
     }
     leadingZeros += textScore;
@@ -162,7 +162,7 @@ void Score::convertLines() {
         lines = 9999999;
     std::string textScore = std::to_string(lines);
     std::string leadingZeros = "";
-    for(int i = 0; i < 7 - textScore.size(); i++) {
+    for(long long unsigned int i = 0; i < 7 - textScore.size(); i++) {
         leadingZeros += "0";
     }
     leadingZeros += textScore;
@@ -177,7 +177,7 @@ void Score::convertLines() {
 void Score::convertLevel() {
     std::string textScore = std::to_string(level);
     std::string leadingZeros = "";
-    for(int i = 0; i < 2 - textScore.size(); i++) {
+    for(long long unsigned int i = 0; i < 2 - textScore.size(); i++) {
         leadingZeros += "0";
     }
     leadingZeros += textScore;
