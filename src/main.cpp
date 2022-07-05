@@ -9,6 +9,7 @@
 
 int main(int argc, char* args[])
 {
+	// Run "make" in Tetris folder and then "./main" to execute
 	Screen screen;
 	Gameplay game;
 	GameOver gameOver;

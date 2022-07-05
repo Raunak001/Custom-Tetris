@@ -98,7 +98,7 @@ Score::~Score() {
     numbers[9].texture = nullptr;
 }
 
-void Score::checkLevel() {
+void Score::updateLevel() {
     level = lines / 10 + 1;
     if (level > 10)
         level = 10;

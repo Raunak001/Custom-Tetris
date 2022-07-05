@@ -235,7 +235,7 @@ void GameMap::checkLine() {
             break;
     }
     Score::lines += lines;
-    Score::checkLevel();
+    Score::updateLevel();
     Score::updateSpeed();
     
     
