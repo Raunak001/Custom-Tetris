@@ -26,7 +26,7 @@ void Screen::init(const char* title, int x, int y, int w, int h, bool fs) {
     } else {
         Uint32 flags = 0;
         if(fs) {flags = SDL_WINDOW_FULLSCREEN;}
-        window = SDL_CreateWindow(title, x, y, w, h, 0);
+        window = SDL_CreateWindow(title, x, y, w, h, flags);
         if(window == NULL) {
             cout << "Window could not be created! Error: " << SDL_GetError() << endl;
         } else {
