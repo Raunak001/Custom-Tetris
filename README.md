@@ -13,7 +13,7 @@ Run the command `g++ src/main.cpp src/screen.cpp src/gameover.cpp src/gameplay.c
 ## Controls
 Left: Move piece left <br>
 Right: Move piece right <br>
-Up: Rotate piece clockwise once <br>
+Up: Rotate piece clockwise <br>
 Down: Move piece down <br>
 Space Bar: Quick drop piece <br>
 
