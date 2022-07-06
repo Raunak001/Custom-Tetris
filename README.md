@@ -9,11 +9,11 @@ Run the contents of `main.cpp` with `make` in the terminal followed by `./main`.
 Run the command `g++ src/main.cpp src/screen.cpp src/gameover.cpp src/gameplay.cpp src/texture.cpp src/gameMap.cpp src/tetromino.cpp src/score.cpp -o main -I includeWindows -L libWindows -l SDL2 -l SDL2_image` in the terminal followed by `./main` or `./main.exe`
 
 ## Controls
-Left: Move piece left
-Right: Move piece right
-Up: Rotate piece clockwise once
-Down: Move piece down
-Space Bar: Quick drop piece
+Left: Move piece left <br>
+Right: Move piece right <br>
+Up: Rotate piece clockwise once <br>
+Down: Move piece down <br>
+Space Bar: Quick drop piece <br>
 
-Q: Quit
-R: Retry
+Q: Quit <br>
+R: Retry <br>
