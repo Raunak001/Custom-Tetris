@@ -3,10 +3,11 @@
 
 ## How to execute
 ### On MacOS
+Make sure you have SDL2 and SDL2_Image libraries installed. If not install them via brew in the terminal by typing `brew install SDL2` and `brew install SDL2_image` <br>
 Run the contents of `main.cpp` with `make` in the terminal followed by `./main`. If the `make` command does not register, run the full Makefile command `g++ src/main.cpp src/screen.cpp src/gameover.cpp src/gameplay.cpp src/texture.cpp src/gameMap.cpp src/tetromino.cpp src/score.cpp -o main -I include -L lib -l SDL2-2.0.0 -l SDL2_image-2.0.0`
 
 ### On Windows
-Run the command `g++ src/main.cpp src/screen.cpp src/gameover.cpp src/gameplay.cpp src/texture.cpp src/gameMap.cpp src/tetromino.cpp src/score.cpp -o main -I includeWindows -L libWindows -l SDL2 -l SDL2_image` in the terminal followed by `./main` or `./main.exe`
+Run the command `g++ src/main.cpp src/screen.cpp src/gameover.cpp src/gameplay.cpp src/texture.cpp src/gameMap.cpp src/tetromino.cpp src/score.cpp -o main -I includeWindows -L libWindows -l SDL2 -l SDL2_image` in the command prompt followed by `./main` or `./main.exe`
 
 ## Controls
 Left: Move piece left <br>
