@@ -1,7 +1,7 @@
 # Tetris
 ## Description of Project
 A revamped remake of the retro puzzle game 'Tetris' using C++ and SDL2, a multimedia library. The objective of the game is to score the most points possible before the game pieces reach the top of the board. Players score points by filling a row with pieces. The more rows cleared at once, the more points. There is a level progression system that goes to level 10, and each level increases the speed of the tetris pieces falling. Can you beat my highscore of 28,528?
-
+![Screenshot](textures/tetris.png)
 ## How to execute
 ### On MacOS
 Make sure you have SDL2 and SDL2_Image libraries installed. If not install them via brew in the terminal by typing `brew install SDL2` and `brew install SDL2_image` <br>
